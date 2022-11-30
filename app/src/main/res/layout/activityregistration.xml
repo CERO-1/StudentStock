@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            >
+
+
+            <ImageView
+
+                android:id="@+id/ivRegLogo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                android:src="@drawable/iconodeapp" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/textlogo"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/gitchgitch"
+                android:layout_marginTop="0dp"
+                android:text="@string/app_name"
+                android:textSize="30dp"
+
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/soliddd"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+
+                android:background="@drawable/btnsignin_gradient"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/ivSignIn"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text="Registro de usuario  "
+           />
+            <AutoCompleteTextView
+                android:id="@+id/atvdni"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_background"
+
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="DNI"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/atvUsernameReg"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="Nombre"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+            <AutoCompleteTextView
+                android:background="@drawable/edittext_background"
+                android:id="@+id/atvApp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="Apellido Paterno"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+            <AutoCompleteTextView
+                android:background="@drawable/edittext_background"
+                android:id="@+id/atvApm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                              android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="Apelido Materno"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/atvdirec"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="Direccíon"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+            <AutoCompleteTextView
+                android:id="@+id/atvTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/icon_person"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_person"
+                android:hint="Telefono "
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/atvEmailReg"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/icon_mail"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_mail"
+                android:hint="Correo"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/atvPasswordReg"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/icon_password"
+                android:hint="Contraseña"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/btnREGISTRAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/btnsignup_gradient"
+                android:text="Registrar"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

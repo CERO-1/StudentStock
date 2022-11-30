@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693151312228",
+    "project_id": "trabajograss",
+    "storage_bucket": "trabajograss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693151312228:android:7db95e4e525bdc8a187271",
+        "android_client_info": {
+          "package_name": "com.pedidos.reservadegrass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693151312228-djiu20veaehlth7bfp0nnau7c7603seq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT1utssXeCT-EcOO661bgVXOKzwmqj2GM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693151312228-djiu20veaehlth7bfp0nnau7c7603seq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
