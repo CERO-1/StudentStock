@@ -17,9 +17,17 @@
 
 
         <item
-            android:id="@+id/item_home"
-            android:icon="@drawable/casa"
-            android:title="Inicio" />
+            android:id="@+id/item_addventas"
+            android:icon="@drawable/i_shop"
+            android:title="Agregar venta" />
+        <item
+            android:id="@+id/item_addcompras"
+            android:icon="@drawable/metododepago"
+            android:title="Agregar compra" />
+        <item
+            android:id="@+id/item_addobjetosperdidos"
+            android:icon="@drawable/ic_shop2"
+            android:title="Agregar objeto perdido" />
     </group>
 
 

@@ -7,17 +7,21 @@
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_compras.xml" value="0.25" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_download_uploaded_images.xml" value="0.1780821917808219" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_main.xml" value="0.17899543378995433" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_main2.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_objetosperdidos.xml" value="0.25" />
-        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_reservarnow.xml" value="0.1814814814814815" />
-        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_subirfoto.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_reservarnow.xml" value="0.25" />
+        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_subicompra.xml" value="0.2" />
+        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_subirfoto.xml" value="0.33" />
+        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_subirobjetoperdido.xml" value="0.33" />
+        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activity_subirventa.xml" value="0.18" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/activityregistration.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/app_bar_main.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/content_canchasreservas.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/content_main.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/fragment_first.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/item_estadios.xml" value="0.25" />
-        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/item_estadiosreservados.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/item_estadiosreservados.xml" value="0.25" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/item_horarios.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/Users/Zero1/AndroidStudioProjects/Reservadegrass/app/src/main/res/layout/recycler_row.xml" value="0.17899543378995433" />
